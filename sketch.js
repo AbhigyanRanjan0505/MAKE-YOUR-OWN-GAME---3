@@ -11,7 +11,7 @@ var ghost2Turn6, ghost3Turn, ghost4Turn, counter, counter2, counter3, ghost3Turn
 var counter = setInterval(timer, 1000), counter2 = setInterval(timer2, 1000);
 var counter3 = setInterval(timer3, 1000), ghost3Turn2, g3b = 0, ghost3Turn3;
 var ghost3Turn5, ghost3Turn6, g4b, ghost4Turn2, ghost4Turn3, ghost4Turn4;
-var ghost4Turn5, ghost4Turn6;
+var ghost4Turn5, ghost4Turn6, ghost1Turn;
 
 function preload() {
     wall1I = loadImage("../MAKE-YOUR-OWN-GAME---3/Images/Wall/Wall.png");
