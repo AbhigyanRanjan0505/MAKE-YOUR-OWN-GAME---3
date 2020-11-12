@@ -14,32 +14,32 @@ var ghost3Turn5, ghost3Turn6, g4b, ghost4Turn2, ghost4Turn3, ghost4Turn4;
 var ghost4Turn5, ghost4Turn6;
 
 function preload() {
-    wall1I = loadImage("../Images/Wall/Wall.png");
-    wall2I = loadImage("../Images/Wall/Wall2.png");
-    wall3I = loadImage("../Images/Wall/Wall3.png");
-    wall4I = loadImage("../Images/Wall/Wall4.png");
-    wall5I = loadImage("../Images/Wall/Wall5.png");
-    wall6I = loadImage("../Images/Wall/Wall6.png");
-    wall7I = loadImage("../Images/Wall/Wall7.png");
-    wall8I = loadImage("../Images/Wall/Wall8.png");
-    wall9I = loadImage("../Images/Wall/Wall9.png");
-    wall10I = loadImage("../Images/Wall/Wall10.png");
-    wall11I = loadImage("../Images/Wall/Wall11.png");
-    wall12I = loadImage("../Images/Wall/Block.png");
+    wall1I = loadImage("../MAKE-YOUR-OWN-GAME---3/Images/Wall/Wall.png");
+    wall2I = loadImage("../MAKE-YOUR-OWN-GAME---3/Images/Wall/Wall2.png");
+    wall3I = loadImage("../MAKE-YOUR-OWN-GAME---3/Images/Wall/Wall3.png");
+    wall4I = loadImage("../MAKE-YOUR-OWN-GAME---3/Images/Wall/Wall4.png");
+    wall5I = loadImage("../MAKE-YOUR-OWN-GAME---3/Images/Wall/Wall5.png");
+    wall6I = loadImage("../MAKE-YOUR-OWN-GAME---3/Images/Wall/Wall6.png");
+    wall7I = loadImage("../MAKE-YOUR-OWN-GAME---3/Images/Wall/Wall7.png");
+    wall8I = loadImage("../MAKE-YOUR-OWN-GAME---3/Images/Wall/Wall8.png");
+    wall9I = loadImage("../MAKE-YOUR-OWN-GAME---3/Images/Wall/Wall9.png");
+    wall10I = loadImage("../MAKE-YOUR-OWN-GAME---3/Images/Wall/Wall10.png");
+    wall11I = loadImage("../MAKE-YOUR-OWN-GAME---3/Images/Wall/Wall11.png");
+    wall12I = loadImage("../MAKE-YOUR-OWN-GAME---3/Images/Wall/Block.png");
 
-    coinI = loadImage("../Images/Coin.png");
+    coinI = loadImage("../MAKE-YOUR-OWN-GAME---3/Images/Coin.png");
 
-    pacmanClosedI = loadImage("../Images/Pacman/Close.png");
-    pacmanRightA = loadImage("../Images/Pacman/Right2.png");
-    pacmanLeftA = loadImage("../Images/Pacman/PacmanLeft2.png");
-    pacmanUpA = loadImage("../Images/Pacman/PacmanUp2.png");
-    pacmanDownA = loadImage("../Images/Pacman/PacmanDown2.png");
+    pacmanClosedI = loadImage("../MAKE-YOUR-OWN-GAME---3/Images/Pacman/Close.png");
+    pacmanRightA = loadImage("../MAKE-YOUR-OWN-GAME---3/Images/Pacman/Right2.png");
+    pacmanLeftA = loadImage("../MAKE-YOUR-OWN-GAME---3/Images/Pacman/PacmanLeft2.png");
+    pacmanUpA = loadImage("../MAKE-YOUR-OWN-GAME---3/Images/Pacman/PacmanUp2.png");
+    pacmanDownA = loadImage("../MAKE-YOUR-OWN-GAME---3/Images/Pacman/PacmanDown2.png");
 
-    ghost1I = loadImage("../Images/Ghost/GhostRed.png");
-    ghost2I = loadImage("../Images/Ghost/GhostOrange.png");
-    ghost3I = loadImage("../Images/Ghost/Ghostyellow.png");
-    ghost4I = loadImage("../Images/Ghost/GhostBlue.png");
-    fakeBlueGhostI = loadImage("../Images/Ghost/FakeBlueGhost.png");
+    ghost1I = loadImage("../MAKE-YOUR-OWN-GAME---3/Images/Ghost/GhostRed.png");
+    ghost2I = loadImage("../MAKE-YOUR-OWN-GAME---3/Images/Ghost/GhostOrange.png");
+    ghost3I = loadImage("../MAKE-YOUR-OWN-GAME---3/Images/Ghost/GhostYellow.png");
+    ghost4I = loadImage("../MAKE-YOUR-OWN-GAME---3/Images/Ghost/GhostBlue.png");
+    fakeBlueGhostI = loadImage("../MAKE-YOUR-OWN-GAME---3/Images/Ghost/FakeBlueGhost.png");
 }
 
 function setup() {
